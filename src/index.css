@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Milestone';
+    src: url('../../assets/MilestoneFreeVersion-Script.otf') format('opentype');
+    /* Outras propriedades opcionais: font-weight, font-style */
+  }
+
+
+body{
+    background-color: #1F2937;
+}
+h1{
+    font-family: 'Milestone';
+}
